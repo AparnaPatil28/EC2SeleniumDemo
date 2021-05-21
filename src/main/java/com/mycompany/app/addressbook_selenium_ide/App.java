@@ -38,7 +38,7 @@ public class App
  driver.findElement(By.id("gwt-uid-13")).sendKeys("01/01/2015");
  driver.findElement(By.className("v-button-primary")).click();
  //Thread.sleep(5000);
- //driver.quit();
+ driver.quit();
  }
 
 }
