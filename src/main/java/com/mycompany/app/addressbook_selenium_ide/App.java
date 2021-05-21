@@ -19,7 +19,7 @@ public class App
 	 
 	 
  //System.setProperty("webdriver.chrome.driver","C:\\Users\\japat\\Desktop\\Aparna\\chromedriver.exe");
- System.setProperty("webdriver.chrome.driver","/home/ubuntu/selenium/chromedriver");
+ System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
  ChromeOptions chromeOptions = new ChromeOptions();
  WebDriver driver = new ChromeDriver(chromeOptions);
  
