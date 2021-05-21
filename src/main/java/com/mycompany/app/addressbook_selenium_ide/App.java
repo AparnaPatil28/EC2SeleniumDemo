@@ -27,7 +27,7 @@ public class App
  System.out.println("Hi, Welcome to Demo on Selenium WebDriver");
 
 
- driver.get("http://65.2.149.96:8888/addressbook");
+ driver.get("http://65.2.30.6:8888/addressbook");
 
  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
  driver.findElement(By.className("v-button")).click();
