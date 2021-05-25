@@ -22,7 +22,7 @@ public class App
  System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
  ChromeOptions chromeOptions = new ChromeOptions();
  chromeOptions.addArguments("--headless");
- chromeOptions.addArguments("--no-sandbox");
+// chromeOptions.addArguments("--no-sandbox");
  WebDriver driver = new ChromeDriver(chromeOptions);
  System.out.println("Hi, Welcome to Demo on Selenium WebDriver");
 
