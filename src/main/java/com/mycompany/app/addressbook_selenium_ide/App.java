@@ -22,14 +22,14 @@ public class App
  System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
  ChromeOptions chromeOptions = new ChromeOptions();
  chromeOptions.addArguments("--headless");
- chromeOptions.addArguments("--no-sandbox");
-chromeOptions.setExperimentalOption("useAutomationExtension", false);
+ //chromeOptions.addArguments("--no-sandbox");
+//chromeOptions.setExperimentalOption("useAutomationExtension", false);
  WebDriver driver = new ChromeDriver(chromeOptions);
  System.out.println("Hi, Welcome to Demo on Selenium WebDriver");
 
-System.out.println("1");
+//System.out.println("1");
  driver.get("http://172.31.36.29:8888/addressbook");
-System.out.println("2");
+//System.out.println("2");
  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
  driver.findElement(By.className("v-button")).click();
  driver.findElement(By.id("gwt-uid-5")).sendKeys("Aparna");
