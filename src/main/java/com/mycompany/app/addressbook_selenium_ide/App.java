@@ -26,9 +26,9 @@ public class App
  WebDriver driver = new ChromeDriver(chromeOptions);
  System.out.println("Hi, Welcome to Demo on Selenium WebDriver");
 
-
+System.out.println("1");
  driver.get("http://35.154.250.65:8888/addressbook");
-
+System.out.println("2");
  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
  driver.findElement(By.className("v-button")).click();
  driver.findElement(By.id("gwt-uid-5")).sendKeys("Aparna");
