@@ -28,7 +28,7 @@ chromeOptions.setExperimentalOption("useAutomationExtension", false);
  System.out.println("Hi, Welcome to Demo on Selenium WebDriver");
 
 System.out.println("1");
- driver.get("http://35.154.250.65:8888/addressbook");
+ driver.get("http://172.31.36.29:8888/addressbook");
 System.out.println("2");
  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
  driver.findElement(By.className("v-button")).click();
