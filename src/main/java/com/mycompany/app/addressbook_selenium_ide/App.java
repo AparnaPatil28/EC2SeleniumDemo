@@ -21,9 +21,9 @@ public class App
  //System.setProperty("webdriver.chrome.driver","C:\\Users\\japat\\Desktop\\Aparna\\chromedriver.exe");
  System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
  ChromeOptions chromeOptions = new ChromeOptions();
- WebDriver driver = new ChromeDriver(chromeOptions);
- 
  chromeOptions.addArguments("--headless");
+ chromeOptions.addArguments("--no-sandbox");
+ WebDriver driver = new ChromeDriver(chromeOptions);
  System.out.println("Hi, Welcome to Demo on Selenium WebDriver");
 
 
